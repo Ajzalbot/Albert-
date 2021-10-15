@@ -10,8 +10,8 @@ from bot.translation import Translation # pylint: disable=import-error
 async def start(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Ajzalk'),
-        InlineKeyboardButton('Source 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+        InlineKeyboardButton('🔰GROUP🔰', url='https://t.me/tiger_chats'),
+        InlineKeyboardButton('🔰CHANNEL🔰', url ='https://t.me/FILMCORNER369')
     ],[
         InlineKeyboardButton('bot 🛠', url='https://t.me/MalluSearchBot')
     ],[
