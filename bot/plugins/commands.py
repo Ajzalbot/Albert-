@@ -13,10 +13,8 @@ async def start(bot, update):
         InlineKeyboardButton('🔰GROUP🔰', url='https://t.me/tiger_chats'),
         InlineKeyboardButton('🔰CHANNEL🔰', url ='https://t.me/FILMCORNER369')
     ],[
-        
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
+     
+
     await bot.send_message(
         chat_id=update.chat.id,
         text=Translation.START_TEXT.format(
